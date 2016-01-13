@@ -1,0 +1,55 @@
+<style>
+/*----------------------------------
+RESET BUTTONS AND FONTS IN LUMINATE TEAMRAISER PLATFORM. THIS IS A COLLECTION OF COMMON SELECTORS UTILIZED IN TEAMRAISER AND LUMINATE SYSTEM PAGES SO YOU JUST NEED TO ADD YOUR OWN RULES FOR THESE - 
+WES GABBARD 11.4.15
+--------------------------------------*/
+/*---------Typography------------*/
+
+*, p, ul, ol, ul, li, table, tr, th, td, span, a, .ObjTitle, input, button, label, .cons-pers td, .cons-pers p, .cons-pers label, .cons-pers fieldset, .cons-pers .Explicit, div.responsive, h1, h2, h3, h4, h5, div.responsive h1, div.responsive h2, div.responsive h3, div.responsive h4. div.responsive h5, h2.cstmTitle, ul li, ol li, strong, em, div.responsive a, div.responsive a:visited, div.responsive a:link, span.team-find-alternate-options-seperator, div.progress-bar-step-current div.progress-bar-step-text-container a, #login-div-content a, .yui-skin-convio .yui-panel .hd, td.FormInput textarea, td.FormInput label, td.FormInput input, td.FormInput select, td.FormInput option {
+	font-family: "museo-sans", sans-serif;
+  font-weight: 500;
+}
+
+/* small buttons for inputs etc */
+#logBtn, #logBtn:link, #login, .mobileLog, .welcome a, #qf_go, input#donor_matching_employersearchBtn {
+  background-color: #13C0D7;
+  border-radius: 50px;
+  font-size: 12px;
+  text-decoration: none;  
+  padding: 3px 7px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0 none; 
+  max-width: 200px;
+  text-transform: uppercase; 
+}
+
+
+/* larger buttons */
+div.responsive a.step-button, div.responsive button.step-button, div.responsive a#previous_step.step-button, div.responsive button#previous_step.step-button, div.responsive a#cancel_button.step-button, div.responsive button#cancel_button.step-button, div.responsive button#pstep_cancel.step-button,
+.Button, div#team_find_search_results_container div.list-component-cell-column-join-link a, div.responsive a#part_ctr_container, div.responsive a#part_ctr_container_step, .NextButton, .FinishButton, .CancelButton, #login-div-content input.uc-button, #login-div-content button, #login-div-content .ft button {
+    background-image: none;
+    background-color: #13C0D7;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    filter: none;
+    padding: 10px;
+    border: 0 none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+/*  hover   */
+#logBtn:hover, #login:hover, div.responsive a.step-button:hover, div.responsive button.step-button:hover, div.responsive a#previous_step.step-button:hover, div.responsive button#previous_step.step-button:hover, div.responsive a#cancel_button.step-button:hover, div.responsive button#cancel_button.step-button:hover, .Button:hover, div.responsive button.cancel-step:hover, div.responsive button.cancel-step:focus, div.responsive button.cancel-step:active, div#team_find_search_results_container div.list-component-cell-column-join-link a:hover, div.responsive a#part_ctr_container:hover, div.responsive a#part_ctr_container_step:hover, .NextButton:hover, .FinishButton:hover, .welcome a:hover, #qf_go:hover, .CancelButton:hover, #login-div-content input.uc-button:hover, #login-div-content button:hover, #login-div-content .ft button:hover  {
+  color: #656565;
+  background: #fcfcfc;
+}
+
+</style>
