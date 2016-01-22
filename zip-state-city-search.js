@@ -1,5 +1,5 @@
 //GLOBAL VARS
-var apiKey = 'CLIENT API KEY';//PUT CLIENT API KEY HERE
+var apiKey = '[[S0:CONVIO_API_KEY]]';
 var apiUrl = 'https://secure2.convio.net/CLIENTSHORTNAME/site/CRTeamraiserAPI';//CLIENT URL
 var eventType = 'PRIMARY EVENT TYPE';//PUT PRIMARY EVENT TYPE YOU WANT TO SEARCH
 
@@ -262,10 +262,10 @@ function cleanResults() {
   $('#state').val('');
 }
 function noResults() {
-    var error = '<p class="upcoming">Your search returned no results. Please try another search by zip code or state to see what MDA Muscle Walk events are happening in your community.</p>';
+    var error = '<p class="upcoming">Your search returned no results. Please try another search by zip code or state to see what upcoming events are happening in your community.</p>';
      $(error).appendTo('.searchResults .container .results');
 }
 function noGeo() {
-    var error = '<p class="upcoming">Search by zip code or state to see what MDA Muscle Walk events are happening in your community.</p>';
+    var error = '<p class="upcoming">Search by zip code or state to see what upcoming events are happening in your community.</p>';
      $(error).appendTo('.searchResults .container .results');
 }
