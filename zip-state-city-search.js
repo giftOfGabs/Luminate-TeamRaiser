@@ -98,10 +98,8 @@ function processReturnedData(data,inputType,theLocation){
     var streetArray = new Array();
     var zipArray = new Array();
     var offsetFromNow = new Array();
-    var tomorrowDate = Date.now() + 86400000; // (86400000 ms in a day) added to avoid same day event confusion.
-    var excludeDate = -15552000000;  // 86400000 ms/day * 180 days
-    //console.log("tomorrowDate = ",tomorrowDate);
-    //console.log("excludeDate = ",excludeDate);
+    var tomorrowDate = Date.now() + 86400000; // (86400000 ms in a day) 
+    var excludeDate = -15552000000;  // 86400000 ms/day * 
     
     var futureEventString = "<div id='futureEvents'>";
     var eventStringLine = "";
