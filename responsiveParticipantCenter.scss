@@ -1,0 +1,243 @@
+/*-----------------------------------------
+-------------------------------------------
+PC RESPONSIVE RESET
+THIS WILL MAKE THE PC RESPONSIVE
+--------------------------------------------
+-------------------------------------------*/
+html{background-color:transparent!important}.yui-skin-ux #layout-list li.selected a{background:0 0}#hd-etc{display:none!important}.mask,.yui-skin-ux .contact-list-name div{width:100%!important}@media all and (max-width:1000px){#yui-main-table,#yui-main-td,#yui-sidebar-td,.yui-skin-ux #doc2,div.progress-bar-outer{width:100%!important}#yui-main-td,#yui-sidebar-td{float:left}#bd-what-next .what-next-message-container,.yui-panel-container{width:80%!important}.yui-skin-ux button.secondary{display:block;margin:0 auto}#hd-nav{margin:0!important;width:100%}#hd-nav li{border-bottom:1px solid #fff!important;border-radius:0!important;width:100%}.yui-skin-ux .ux-hd-row{margin:0}#hd-nav li a{padding:15px!important}.track-progress li:last-child i{position:static}#bd-personal-progress{padding:0}.yui-skin-ux .fundraising-progress .section{float:left;margin:0;padding:20px 0;width:100%}.what-next-icon{margin:0 0 15px!important;padding:0!important;text-align:center;width:100%}#sidebar{width:100%}.yui-skin-ux .group-column div,.yui-skin-ux .group-column span,.yui-skin-ux .group-column span a{width:100%!important;clear:both;float:left}#donation_history col{width:auto!important}#donation_history td:nth-child(3),#donation_history th:nth-child(3){display:none}.set-width{width:100%!important}#donation_history .misc-item{display:block}#shortcut_link,#teampage_shortcut_link{display:block;float:left;font-size:10px;width:44%;word-wrap:normal}.yui-skin-ux .media form{margin:0}.media{padding:10px 3px!important}#teampage-photo-upload-form{float:left;width:100%;clear:both;margin:10px 0}.page-content-type{display:block;clear:both}#teampage_graphic_caption{float:left;margin:20px 0;width:100%}#addressbookimport-wizard-breadcrumb li{text-align:left;width:100%}#addressbookimport-selectsource-options div{display:block;margin:10px auto!important}}@media all and (max-width:780px){#progress-percent{clear:left}.yui-skin-ux #doc2{width:100%}.yui-skin-ux #sidebar{clear:both;width:100%}.yui-skin-ux #hd-nav{margin:0 0 2em;width:100%}.yui-skin-ux #hd-nav li{width:100%;float:left}#hd .ux-hd-row{text-align:left}.yui-t5 #yui-main .yui-b{margin:0!important;padding:0 1%!important}.yui-skin-ux #hd-etc{display:none}.defaultSkin tr.mceFirst .mceToolbar tr td,.defaultSkin tr.mceLast .mceToolbar tr td{display:block;float:left}.yui-module.yui-overlay.yui-panel{width:100%!important;padding-left:0!important;padding-right:0!important}.yui-panel-container.yui-overlay-hidden{left:0!important}#yui-main{padding:0}#survey-content-actions,#survey-questions{padding:0!important}.question-container textarea{width:100%!important}#preview-body{padding:0!important}#preview-block_c{min-width:93%}#permalink_save_cancel span button,#teampage_permalink_save_cancel span button{display:block;float:none;margin:20px auto!important;padding:10px 20px}#send-info-table td{clear:both;display:block;width:95%}#email-subject{margin:0!important;width:100%}}@media all and (max-width:768px){.track-progress li span:after,.track-progress li span:before{border:none!important}#email-wizard-breadcrumb li{float:left;position:static;text-align:left;width:100%}span.nav_container{padding:0 5px!important}#compose-rich-text_tbl td,#compose-rich-text_toolbar2 td{display:block;float:left}#compose-rich-text_toolbar1 td:nth-child(5),#compose-rich-text_toolbar2 td:nth-child(11){clear:both}#compose-rich-text_tbl tr:nth-child(2){float:left;margin:70px 0 0}.email-wizard-contacts-email,.email-wizard-contacts-name,.email-wizard-contacts-name-header,.email-wizard-recipients-actions,.email-wizard-recipients-actions-header,.email-wizard-recipients-email,.email-wizard-recipients-email-header,.email-wizard-recipients-name,.email-wizard-recipients-name-header{padding:5px!important;white-space:normal!important;width:30%!important}#email-wizard-contacts-table,#email-wizard-contacts-table tbody,#email-wizard-contacts-table-container,#email-wizard-contacts-table-header,#email-wizard-contacts-table-header thead,#email-wizard-groups-table,#email-wizard-groups-table tbody,#email-wizard-groups-table-container,#email-wizard-groups-table-header,#email-wizard-groups-table-header thead,#email-wizard-recipients-table,#email-wizard-recipients-table-container,#email-wizard-recipients-table-header,#email-wizard-recipients-table-header thead,.email-wizard-contact-picker{width:100%!important;height:auto}.content-actions a,.content-actions button{clear:both;display:block;float:left;margin:0 0 15px;width:99%;text-align:center}#email-compose-templates{margin:0!important}#contacts-list table td:nth-child(4),#contacts-list table thead th:nth-child(4){display:none}#contacts-list-content-block td,#contacts-list-content-block th{padding:0;width:20%!important}#contacts-list tbody tr td{display:block;float:left;width:100%!important}#contacts-list thead{display:none}#contacts-list tbody tr{border:1px solid #333;display:block;float:left;margin:10px 0;width:98%}#contacts-list tbody td{text-align:left!important}.yui-skin-ux #email-contacts-content td .gray-item{display:inline-block;margin:0 0 0 5px}#contacts-list tbody td:nth-child(5) .yui-dt-liner:before{content:"Email - Sent: "}#contacts-list tbody td:nth-child(6) .yui-dt-liner:before{content:"Email - Opened: "}#contacts-list tbody td:nth-child(7) .yui-dt-liner:before{content:"Page Visits: "}#contacts-list tbody td:nth-child(8) .yui-dt-liner:before{content:"Donations: "}#contacts-list-groups .yui-dt-liner{padding:0}.yui-skin-ux #contacts-table-info-block #contacts-list-groups .yui-dt-first{width:16px!important}}@media all and (max-width:455px){#bd-recent-activity-detail table td:nth-child(2),#bd-recent-activity-detail table th:nth-child(2){display:none}#bd-recent-activity-detail td,#bd-recent-activity-detail th{padding:0}#shortcut_link,#teampage_shortcut_link{font-size:8px}}@media all and (max-width:387px){#donation_history td:nth-child(5),#donation_history th:nth-child(5){display:none}}
+/*-----------------------------------------
+-------------------------------------------
+BASIC RESET
+USE THESE SELECTORS TO APPLY STYLES
+-------------------------------------------
+-------------------------------------------*/
+
+/*------------------------
+TYPOGRAPHY
+--------------------------*/
+html, body {font-size: 62.5%;}
+html, html a, html a:hover {-webkit-font-smoothing: antialiased !important;text-shadow: 1px 1px 1px rgba(0,0,0,0.004) !important;}
+*, p, ul, ol, li, ul li, ol li, strong, em, table, tr, th, td, span, a, .ObjTitle, input, button, h1, h2, h3, h4, textarea, select, option, label, div, .footer, p.cstmText, .list-value-container {font-family: 'museo-sans', sans-serif; font-size: 18px;font-size: 1.8rem;color: #71685e;font-weight:300;}
+.yui-skin-ux h1, .yui-skin-ux h1, .yui-skin-ux div.h1-imposter, .yui-skin-ux #content.yui-b h1{font-size:28px; font-size:2.8rem;margin: 0 0 20px;}
+.yui-skin-ux h2 {font-size: 24px;font-size: 2.4rem;margin: 0 0 35px 0; font-weight: bold; line-height: 38px;}
+.yui-skin-ux h3 {font-size: 24px;font-size: 2.4rem;margin: 0 0 15px 0;font-weight: 700;}
+.yui-skin-ux #sidebar h3{padding:0;}
+p {margin: 0 0 20px 0 !important;line-height: 30px;}
+.yui-skin-ux a, .yui-skin-ux a:link {text-decoration: none;color:#296dc0;font-size: inherit}
+#msg_cat_team_page_shortcut_view, #msg_cat_personal_page_view_label, #msg_cat_team_page_shortcut_edit{color:#296dc0;}
+.yui-skin-ux a:hover {text-decoration: underline; cursor: pointer;}
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+
+
+/*------------------------
+HEADER
+--------------------------*/
+.yui-skin-ux .ux-hd-small{display:none;}
+.yui-skin-ux .ux-hd-row {margin:0 auto; width:100%;background:#f0f0f0;overflow: hidden}
+.yui-skin-ux .ux-hd-row#hd-branding{background: #fff;}
+.yui-skin-ux .ux-hd-row#hd-branding .header{margin:0 auto;max-width:1000px;overflow: hidden; width:100%;background:#fff;padding:30px 0;height:auto;}
+.yui-skin-ux .header{background:transparent;padding:0;}
+#hd-branding{text-align:left;}
+.header .left {margin:20px 0 0;}
+.header .right p {text-align: right}
+@media (max-width:1024px) {
+  .header .right{clear: both;float:none;text-align: center}
+  .header .right p{text-align: center;}
+  .header .left{float:none;text-align: center;margin:20px 0;}
+}
+/*----------------------------
+LAYOUT
+------------------------------*/
+#captainsMessage{background:#f0f0f0;padding:20px;}
+div#content > div {padding:50px 0 0;}
+div#content > div#dashboard-content, div#content > div#report-content{padding:0;}
+#yui-sidebar-td{margin:50px 0 0;}
+.yui-skin-ux ul.subnav{padding:0;}
+.page-header{display:none;}/*hiding page headers - this is for therm on progress page*/
+.yui-skin-ux ul.subnav{margin: 0 0 10px;}
+@media(min-width:1025px) {
+  #dashboard-home-content {width:1000px;}
+  #dashboard-home-content,#dashboard-report-content,#bd-team-chart {padding:275px 0 0;}/*making room for therm*/
+  #report-sidebar {margin:0; position: absolute; top:220px;}
+}
+@media (max-width:1024px) {
+  #hd-branding .left, #hd-branding .right {width:100%;}
+  #dashboard-home-content,#dashboard-report-content, #bd-team-chart{padding:430px 0 0;}
+  #report-sidebar{padding:0;}
+}
+/*----------------------------------
+NAV
+------------------------------------*/
+.header .navigation{width:80.3%;}
+a.menuLink{display:none;}
+.yui-skin-ux a.menuLink:hover{text-decoration: none;}
+.yui-skin-ux #hd-nav {width: 100%;display: block; position: relative;list-style: none;padding: 0;margin:0 auto; float:none;max-width:1000px;}
+.yui-skin-ux #hd-nav li{list-style: none;}
+.yui-skin-ux #hd-nav > li {list-style: none; float: right; margin: 0 0 0 6%;background:transparent;padding: 0 1.7763%;}
+.yui-skin-ux #hd-nav .selected{margin: 0 0 0 6%;}
+.yui-skin-ux #hd-nav > li a, .yui-skin-ux #hd-nav a, .yui-skin-ux #hd-nav a:link, .yui-skin-ux #hd-nav a:visited {text-transform: uppercase; font-weight: normal; font-size: 18px; font-size: 1.8rem; line-height: 55px;height: 55px;display:block;padding: 0 5px; font-family:'Oswald', sans-serif;color: #71685e;}
+.yui-skin-ux #hd-nav .selected a{color:#fff;}
+.yui-skin-ux #hd-nav a, .yui-skin-ux #hd-nav a:link, .yui-skin-ux #hd-nav a:visited{padding: 0;}
+.menu ul li{padding: 0px;} 
+.yui-skin-ux #hd-nav > li:hover a {color:#fff;}
+.menuLink i{font-size:40px;display: none;}
+.menuLink i.active{display: block;}
+.yui-skin-ux #hd-branding.ux-hd-row{padding:30px 0;}
+@media (min-width: 1025px) {
+  .yui-skin-ux #hd-nav > li:hover, .yui-skin-ux #hd-nav .selected {background:none no-repeat scroll 0 0 #ec6b21;text-decoration: none;border: 0 none;border-radius: 0;}
+}
+@media (max-width: 1024px) {
+  a.menuLink{display:block;position: absolute;right:2%;top:5px;}
+  .yui-skin-ux #hd-nav{display:none;}
+  .header .navigation{background:#2E2E30;clear:both;width: 92%;padding: 0 4%;}
+  .yui-skin-ux #hd-nav > li{clear:both;width: 100%;}
+  .header div.red{height: auto;position: relative;}
+  .yui-skin-ux #hd-nav > li{margin: 0;}
+  .yui-skin-ux #hd-nav > li a.button{padding:10px;}
+  li.menuItem.mobileShow{border:0 none; width: 100px;float:left; clear:none;margin: 10px 0;}
+  .menu ul li{border-bottom:0 none;}
+  .menu ul li:last-child, .yui-skin-ux #hd-nav .selected:last-child{border:0 none;}
+  .yui-skin-ux #hd-nav > li:hover {border-bottom:0 none;}
+  .yui-skin-ux #hd-nav .selected {border-bottom: 0 none;background-color: #ec6b21;margin: 0; border: 0 none;border-radius: 0;}
+  .yui-skin-ux #hd-branding.ux-hd-row{padding:30px 2.5%;width:95%;}
+  .yui-skin-ux .ux-hd-row{padding: 0; width:100%;}
+  .yui-skin-ux #hd-nav > li{width:95%; padding: 0 2.5%;}
+  .yui-skin-ux #hd-nav > li:hover{border:0 none;}
+  .yui-skin-ux #hd-nav > li.selected a {color:#fff;}
+}
+/*----------------------
+SIDEBAR
+------------------------*/
+.side-links, #dashboard-sidebar .primary-action-shrinkwrap-container{display: none;}
+.yui-skin-ux #sidebar.yui-b .side-block, .cta .button{margin:15px auto;}
+#participant-info-block-container{display:none;}
+.yui-skin-ux #sidebar .side-content.editable h1, .yui-skin-ux #sidebar .sidebar-form h1{word-wrap:break-word;}
+/*-------------------------------
+BUTTONS
+---------------------------------*/
+.yui-skin-ux a.button, .yui-button button, .yui-skin-ux button.primary, .yui-skin-ux .yui-push-button.default, .yui-skin-ux button, .yui-skin-ux .yui-push-button button, .yui-skin-ux div.primary-action a{border-radius: 10px; padding: 0px 15px;color: #fff;display:inline-block;font-family:'Oswald', sans-serif;border: 0 none;filter: none;font-size: 30px; font-size:3.0rem;min-height:50px;line-height:50px;background:none no-repeat scroll 0 0 #ec6b21;text-decoration:none;}
+ .yui-skin-ux button.secondary {background:none no-repeat scroll 0 0 #ec6b21;filter:none; border-radius: 10px; padding: 0 15px;height: auto;border: 0 none;color:#fff;font-family: 'Oswald', sans-serif;font-size:30px;}
+ .yui-skin-ux a.button:hover,.yui-button button:hover, .yui-skin-ux button.secondary:hover, .yui-skin-ux button:hover,.yui-skin-ux button.primary:hover, .yui-skin-ux .yui-push-button.default:hover, .yui-skin-ux .yui-push-button button:hover, .yui-skin-ux div.primary-action a:hover{text-decoration: none;cursor:pointer;background:none no-repeat scroll 0 0 #e24a02;color:#fff;font-weight:normal;}
+.yui-skin-ux .yui-push-button{background:transparent;padding: 0;border: 0 none;}
+button span{color:#fff;margin:0;line-height: 0;font-size:30;font-family: 'Oswald', sans-serif;font-size:30px;}
+.ui-button .ui-button-text{color:#fff;line-height: 0;margin:0;}
+.yui-skin-ux #quick-gift-cancel #msg_cat_gift_cancel_label{font-weight:bold;}
+.ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary{display: none}
+.yui-skin-ux div.primary-action{width:100%;border: 0 none; background:none 0 0 transparent;}
+.yui-skin-ux div.primary-action{border-radius:0;box-shadow:none;}
+.yui-skin-ux button.small{margin: 10px;display:inline-block;padding:0 15px; font-weight: inherit;line-height: 0}
+ .yui-skin-ux a.button.lightBlue{background: #6babe5;margin: 0 0 0 10px;}
+ .yui-skin-ux a.button.lightBlue:hover {background: none no-repeat scroll 0 0 #296dc0;}
+ .yui-skin-ux .yui-push-button.default button{font-weight:normal;line-height: 0;margin:0;padding:0;}
+ .ui-button .ui-button-text{font-family: 'Oswald', sans-serif;font-size:30px;}
+ .yui-skin-ux button.secondary{font-weight:normal;}
+ .yui-skin-ux #sidebar a#msg_cat_report_add_gift_button_label{color:#fff;}
+/*-------------------
+LOADING BAR
+---------------------*/
+#wait_c .bd {height:210px; background:url('/images/content/pagebuilder/2015yogaForHope.png') no-repeat center 60px scroll transparent;}
+.ui-progressbar .ui-progressbar-value{background-color: #ec6b21 !important;}/*override jQuery ui css*/
+@media(max-width: 568px){
+    #wait_c .bd{height:auto;background-image:none;}
+}
+/*---------------------
+EMAILS MODUAL
+-----------------------*/
+#email-wizard-breadcrumb li span {font-size:18px;font-size:1.8rem;}
+#email-wizard-breadcrumb li .email-wizard-status-indicator{top:0;}
+.yui-skin-ux #email-compose-salutation{padding:0;}
+.yui-skin-ux #email-compose-templates{padding: 0; margin: 25px auto;}
+#email-wizard-contact-search{margin:10px 0 0; padding: 2px 1%;width:98%;}
+#email-layout-selected{display: none}
+@media(max-width:768px) {
+  .track-progress li{display: block; text-align: left;}
+  .track-progress li > span:after, .track-progress li > span:before{border: 0 none;}
+  .track-progress li > span{padding:0 10px}
+  #email-wizard-breadcrumb li span{font-size:2rem;}
+  #email-compose-content-actions a {display: block;margin: 0 0 10px;}
+  #email-compose-content-actions button {width: 100%;clear:both;margin: 15px auto;}
+  .email-wizard #email-compose-content-actions{text-align:center;}
+  #email-template-container h3{padding:10px 0 10px 15%;}
+  .yui-skin-ux .compose-section-input-field #email-subject{padding:.3em 0;}
+  div#email-wizard-contacts button{margin:15px;}
+  #email-wizard-recipients-table-header{display: none}
+  .defaultSkin table.mceLayout, .email-wizard #email-compose-top, .yui-skin-ux #layout-block{max-width:98%;}
+  .yui-skin-ux #email-layout-selected{max-width:98%;}
+}
+/*-----------------------
+PERSONAL AND TEAM PAGES
+-------------------------*/
+@media(max-width:1024px) {
+  .yui-skin-ux .media form {margin:0;clear:both;}
+  .caption input{max-width:225px;}
+  .yui-skin-ux .media{background:transparent; padding: 1.5em 0;}
+}
+@media(max-width:480px) {
+  #personal_page_title, #company_page_title{max-width: 270px}
+}
+/*-----------------------------
+CONTACTS
+-------------------------------*/
+.yui-skin-ux #msg_cat_contacts_send_message_button, .yui-skin-ux #msg_cat_contact_details_compose {background-image: none;padding: 0 5px;margin: 0;font-size:14px;}
+.yui-skin-ux #groups_menu_container, .yui-skin-ux span#detailsGroupsMenuButton{background-image:none;}
+.yui-skin-ux .groups_menu_container .yui-button{background-image:none;padding:0;}
+span#detailsGroupsMenuButton button#detailsGroupsMenuButton-button{color:#fff;height:40px;}
+.yui-skin-ux .groups_menu_container .yui-button{padding:0 5px;}
+.yui-skin-ux .groups_menu_container, .yui-skin-ux .contacts-actions .button{margin-right:5px;}
+.yui-skin-ux #msg_cat_contacts_delete_button, .yui-skin-ux #msg_cat_sent_message_delete_label, .yui-skin-ux #msg_cat_contacts_email_all_button{padding:0 5px; background-image: none;}
+.yui-skin-ux #contacts-table-info-block .full{width: auto;}
+.yui-skin-ux #contacts-list-content-block .yui-dt td{border-right:0 none;}
+.yui-skin-ux #contacts-list-content-block .yui-dt th, .yui-skin-ux #contacts-list-content-block .yui-dt td:first-child{border: 0 none;}
+.yui-skin-ux #contacts-list-content-block .yui-dt-col-group{display: none}
+.yui-skin-ux #contacts-table-info-block .full{width: 100%;float:left;}
+.yui-skin-ux .contact-list-name div{width: auto;max-width:200px;}
+.yui-skin-ux #contacts-list-content-block .yui-dt tr th, .yui-skin-ux #contacts-list-content-block .yui-dt tr td {padding: 1%;}
+h3#msg_cat_contact_details_groups_header{display:none;}
+div#email-contacts-content div#contacts-actions a, div#email-contacts-content div#contacts-actions button {color:inherit;font-size:18px;}
+div#email-contacts-content div.search input#contacts-search-text{max-width:200px;}
+@media (max-width:768px) {
+  .yui-skin-ux #contacts-table-info-block tr td.column-set-width{min-width: 0;width: auto;}
+  .yui-skin-ux div .right-split{float:left;}
+  #select-links{clear:both;}
+}
+@media (max-width:568px) {
+  .yui-skin-ux #contacts-table-info-block .yui-dt-col-clickThroughs{display: none;}
+}
+@media (max-width:480px) {
+  .yui-skin-ux #contacts-table-info-block .yui-dt-col-donations, .yui-skin-ux #contacts-table-info-block .yui-dt-col-amountRaised{display: none;}
+}
+
+/*-------------------------
+WHATS NEXT
+---------------------------*/
+#bd-what-next .what-next-icon, #bd-what-next .what-next-type{color:#296dc0;}
+
+/*--------------------------
+THERMS
+----------------------------*/
+.whiteIcon{vertical-align:bottom;margin: 0 0 0 10px;}
+.contentWrap {max-width:1000px; margin: 0 auto}
+.ltBlue{background: #6babe5;}
+.thermWrap{overflow: hidden;padding:35px 0;position: absolute;left:0;right:0;}
+.thermWrap .left{width:auto;text-align: center;}
+.thermWrap .left h3{font-weight:normal;color:#fff;line-height: 1;font-family:'Oswald', sans-serif;font-size:36px;margin:0;}
+.thermWrap .right{width:60%;}
+.thermWrap .right p {color:#fff;font-size:24px;font-size:2.4rem;line-height: 1;}
+.thermWrap .right a{color:#fff;float: right;margin: 20px 0 0;}
+.therm-outer{height:70px;background-color: #fff; width:100%;overflow:hidden;}
+.therm-inner{height: 70px;background-color: #ee7624; min-width:10%;float:left;}
+.arrow-right{border-bottom:35px solid transparent;border-top:35px solid transparent;border-left:35px solid #ee7624;width:0;height:0;float:left;}
+.yui-skin-ux .thermWrap .big-block{color:#fff; font-size:24px; line-height: inherit;margin:0;display: inline-block;} 
+.yui-skin-ux .thermWrap .raised .big-block{font-family: 'Oswald', sans-serif;font-size:80px;}
+.daysLeft{display: block;font-size:24px;color:#fff;}
+.yui-skin-ux .thermWrap .daysLeft .big-block{font-size:24px;}
+.thermWrap .fa {color:#fff;margin: 0 0 0 10px;}
+#msg_cat_team_progress_days_left_label{display: none;}
+.section.last.progress-days-left{display: inline}
+@media(max-width:1024px){
+  .thermWrap .left, .thermWrap .right{width:90%;float:none;margin: 25px auto;}
+  .thermWrap{padding:0 0 35px;}
+}
+
