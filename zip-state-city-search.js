@@ -100,12 +100,8 @@ function processReturnedData(data,inputType,theLocation){
     var offsetFromNow = new Array();
     var tomorrowDate = Date.now() + 86400000; // (86400000 ms in a day) 
     var excludeDate = -15552000000;  // 86400000 ms/day * 
-    
-    var futureEventString = "<div id='futureEvents'>";
-    var eventStringLine = "";
-    var eventCounter = 0;  
-    var j = 0;
-    var k = 0;
+    var eventStringLine = "";//Setting up to hold response data that will be presented in html
+    var j = 0;//event counter, will act as index for building arrays
 
     if(data.getTeamraisersResponse.totalNumberResults == "0"){
         cleanResults();
@@ -135,6 +131,7 @@ function processReturnedData(data,inputType,theLocation){
         $.each(data.getTeamraisersResponse.teamraiser, function() {  
             console.log('returned multiple results');         
             if(this.accepting_registrations == "true" || this.accepting_donations == "true"){
+                //Updating arrays with data from response
                 frIdArray[j] = this.id;
                 urlArray[j] = this.greeting_url;
                 nameArray[j] = this.name;
@@ -153,17 +150,17 @@ function processReturnedData(data,inputType,theLocation){
             }
         });
     }
-    console.log("j = ",j);
     // if j>0 we have a result, process.  If j=0 we have no result, so skip computations and proceed with closing up the divs.
     if (j > 0){ 
         var i = 0; 
         for(k = 0;k <  j; k++){
+            //convert date data
             var dateStr=dateArray[k]; 
             var a=dateStr.split("T");
             var d=a[0].split("-");
             var t=a[1].split(":");
             t[2] = t[2].slice(0,2); 
-            var fullDate = new Date(d[0],(d[1]-1),d[2],t[0],t[1],t[2]);    
+            var fullDate = new Date(d[0],(d[1]-1),d[2],t[0],t[1],t[2]);  //Check to see if event has already passed  
             offsetFromNow[k] = fullDate.valueOf() - tomorrowDate.valueOf();
             dateArray[k] = (fullDate.getMonth()+1)+"."+fullDate.getDate()+"."+(fullDate.getFullYear()-2000);
             if(inputType === 'all'){
@@ -173,7 +170,8 @@ function processReturnedData(data,inputType,theLocation){
                 }else{
                     if (offsetFromNow[k] < excludeDate){
                         continue;
-                    }      
+                    } 
+                    //if not past event, spit data into html     
                     if (offsetFromNow[k] > 0){          
                         eventStringLine = "";
                         eventStringLine += "<div class='eventEntry'><div class='left'><p><a href='"+urlArray[k]+"'>"+nameArray[k]+"</a><br /><span class='eventCity'>"+cityArray[k]+", "+stateArray[k]+"</span></p></div><div class='right'><p><span class='eventDate'>"+dateArray[k]+"</span><br /><span class='eventLocation'><a target='_blank' href="+mapLink[k]+">"+locationArray[k]+"</a>&nbsp;&nbsp;<span class='addressIcon'></span></span></p></div><div class='clear'></div></div>";
