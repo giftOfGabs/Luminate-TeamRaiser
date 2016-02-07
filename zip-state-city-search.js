@@ -14,7 +14,7 @@ $(document).ready(function(){
     getLocation();    
 });
 
-function zipSearch(inputType,theLocation){
+var zipSearch = function(inputType,theLocation){
     console.log("entered zipSearch ",inputType,theLocation);
     $.ajax({
       type: 'GET',
@@ -36,8 +36,8 @@ function zipSearch(inputType,theLocation){
         cleanResults();
         processReturnedData(data,inputType,theLocation);
     });
-}
-function stateSearch(inputType,stateAbb){
+};
+var stateSearch = function(inputType,stateAbb){
     console.log("entered stateSearch ",inputType,stateAbb);
     $.ajax({
         type: 'GET',
@@ -57,8 +57,8 @@ function stateSearch(inputType,stateAbb){
         cleanResults();
         processReturnedData(data,inputType,stateAbb);
     });    
-}
-function citySearch (inputType,city) {
+};
+var citySearch = function (inputType,city) {
     console.log('entered event search ',inputType,city);
     $.ajax({
         type: 'GET',
@@ -78,8 +78,8 @@ function citySearch (inputType,city) {
         cleanResults();
         processReturnedData(data,inputType,city);
     });
-}
-function processReturnedData(data,inputType,theLocation){
+};
+var processReturnedData = function(data,inputType,theLocation){
     console.log(data);
     // Process array data, convert dates, build strings of upcoming and past events
     var frIdArray = new Array();
@@ -205,8 +205,8 @@ function processReturnedData(data,inputType,theLocation){
         var aTag = $("a[name='results']");
         $('html,body').animate({scrollTop: aTag.offset().top},'slow');
     }      
-}
-function getLocation(){
+};
+var getLocation = function(){
   console.log("Entered getLocation");
   var options = {
     enableHighAccuracy: true,
@@ -220,8 +220,8 @@ function getLocation(){
     alert("Geolocation is not supported by this browser.");
     noGeo();
   }
-}
-function showPosition(position) {
+};
+var showPosition = function(position) {
   console.log("Entered showPosition lat: ",position.coords.latitude);
   console.log("Entered showPosition long: ",position.coords.longitude);  
   var input = position.coords.latitude + "," + position.coords.longitude;
@@ -232,8 +232,9 @@ function showPosition(position) {
     var zipCode = result[0]['address_components'][7]['short_name'];
     zipSearch("Zip",zipCode);
   });
-}   
-function showError(error){
+};
+
+var showError = function(error){
     switch(error.code){
     case error.PERMISSION_DENIED:
       console.log("User denied the request for Geolocation.");
@@ -252,18 +253,18 @@ function showError(error){
       noGeo(); 
       break;
     }
-}
-function cleanResults() {
+};
+var cleanResults = function() {
   $('.searchResults .container .results .eventEntry').remove();
   $('.searchResults .container .results .upcoming').remove();
   $('#inputZip').val('');
   $('#state').val('');
-}
-function noResults() {
+};
+var noResults = function() {
     var error = '<p class="upcoming">Your search returned no results. Please try another search by zip code or state to see what upcoming events are happening in your community.</p>';
      $(error).appendTo('.searchResults .container .results');
 }
-function noGeo() {
+var noGeo() = function() {
     var error = '<p class="upcoming">Search by zip code or state to see what upcoming events are happening in your community.</p>';
      $(error).appendTo('.searchResults .container .results');
 }
