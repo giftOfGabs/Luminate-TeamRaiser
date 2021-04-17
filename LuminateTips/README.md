@@ -8,7 +8,7 @@ Luminate Tips and Tricks
 Retrieve the value of your session variable with S80
 Ex. ```[[S80:foo]]``` would return "bar"
 * **Manually Set a Pagewrapper** - ```&pgwrap={####}```
-* **Force Browser to Always Load Current External File** - ```styles.css?v=[[S55:0:10000:5]]```
+* **Force Browser to Always Load Current External File** - ```styles.css?v=[[S55:0,1000,5]]```
 * **Preview Donation Form** - ```&df_preview=true ```
 * **View Reusable Pagebuilder Names in Source** - ```&s_debug=true```
 * **View Template Names** in Source - ```&s_dev_templates=true```
